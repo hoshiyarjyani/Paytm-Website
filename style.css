@@ -1,0 +1,159 @@
+  
+/* css */
+* {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/* second section */
+
+.secondtop{
+width: 100%;
+height: auto;
+border: 1px solid;
+display: flex;
+ justify-content: flex-end;
+}
+
+.secondtop-child-right{
+width: 50%;
+height: auto;
+ 
+
+}
+.secondtop-child-left{
+    width: 41.4%;
+    height: auto;
+    
+    
+    }
+ .secondtop-child-img{
+    width: 26%;
+    height: auto;
+    margin-top: 3rem;
+    margin-bottom: 1.8rem;
+
+ }
+ .secondtop-child-heading h1{
+    
+     
+    font-size: 57px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 0.7rem;
+     
+}
+
+.secondtop-child-heading p{
+    
+     
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+ 
+ 
+ .secondtop-child-button button{
+    width: 40%;
+    height: auto;
+    border-radius: 23px;
+    background-color: black;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+ }
+
+ .second-child-bigimg{
+    width: 100%;
+    height: auto;
+    text-align: right;
+    padding: 3rem 0;
+ }
+ .bigimg{
+    width: 70%;
+ }
+
+img{
+    width: 100%;
+}
+
+/* third section */
+
+
+.top {
+  width: 100%;
+  height: auto;
+  background-color: #00baf2;
+  color: white;
+}
+.bottom {
+  width: 100%;
+  height: auto;
+  background-color: #0f4a8a;
+}
+.heading {
+  width: 82%;
+  margin: 0px auto;
+  padding-top: 55px;
+  padding-bottom: 20px;
+  font-size: 0.82rem;
+}
+.top-container {
+  width: 84%;
+  height: auto;
+
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  margin: auto;
+}
+.top-container-child {
+  width: 14%;
+  margin: 2%;
+  padding-bottom: 1.5rem;
+}
+img {
+  width: 50%;
+  margin-bottom: 11px;
+}
+.des {
+  margin: 4px 0;
+  font-weight: 700;
+  font-size: 0.76rem;
+}
+.top .desc {
+  margin: 5px 0;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+.bottom .desc {
+  margin: 2px 0;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+ 
+
+/* scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #00baf2; 
+   
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00baf2; 
+  }
