@@ -210,6 +210,7 @@ height: auto;
   height: auto;
   background-color: #0f4a8a;
   color: white;
+  padding-bottom: 1.1rem;
 }
 .heading {
   width: 82%;
@@ -252,6 +253,75 @@ img {
   font-size: 0.9rem;
 }
  
+/* heading - Paytm payments instruments */
+.instrument{
+  height: 10rem;
+  width: 77%;
+  margin: auto;
+  font-size: 1.25rem;
+  padding-top: 5rem;
+}
+
+.box{
+  width: 70%;
+  margin: auto;
+}
+
+
+
+.a6-left-wallet{
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: -0.5rem;
+}
+.a6-left-wallet img{
+  width: 40%;
+}
+.a6-left-wallet h5{
+  width: 40%;
+  margin-top: 1.2rem;
+}
+.a6-left-head{
+font-size: 1.3rem;
+}
+.a6-left-head h2{
+  margin: 1.05rem 0;
+}
+
+.a6-left-head h5{
+font-size: 17.5px;
+font-weight: 600;
+}
+
+.a6-left-head button{
+  width: 55%;
+  height: auto;
+  border-radius: 33px;
+  background-color: black;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+  margin-top: 1.8rem;
+}
+.a6{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.a6-right img{
+width: 100%;
+margin-left: 1rem;
+}
+.a6-left{
+width: 40%;
+}
+.a6-right{
+width: 50%;
+}
 
 /* scroll bar */
 
